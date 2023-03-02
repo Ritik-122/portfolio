@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import weatherProj from '../../Assets/Projects/weatherProj.png'
 import expense from '../../Assets/Projects/expense.png'
-
+import imdb from '../../Assets/Projects/imdb.png'
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -34,22 +34,22 @@ function Projects() {
               imgPath={expense}
               isBlog={false}
               title="Expense Tracker"
-              description="Created a web application for tracking personal expenses using React.js. Used React hooks like useState and useEffect to manage state and perform side effects respectively. Incorporated error handling using try/catch blocks and displaying error messages to the user"
+              description="Created a web application for tracking personal expenses using React.js. Used React hooks like useState and useEffect to manage state and perform side effects respectively. Incorporated error handling using try/catch blocks and displaying error messages to the user."
               ghLink="https://github.com/Ritik-122/my-app"
               demoLink="https://my-app-six-dusky.vercel.app/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={news}
+              imgPath={imdb}
               isBlog={false}
-              title="News-Portal"
-              description="A daily journal news website. It is built on React framework and EJS and NEWSAPI."
-              ghLink="https://github.com/JainAnmol744/News-App"
-              demoLink="news-app-tau-ruby.vercel.app"              
+              title="IMDB Clone"
+              description="Used React Router to create multiple routes for different views like the popular ,upcoming movie details.ntegrated with the TMDB API to fetch movie data like titles, posters, ratings, and reviews. Created reusable components like movie cards, header, footer, for a modular and scalable architecture."
+              ghLink="https://github.com/Ritik-122/IMDB-clone-ReactApp-master"
+              demoLink="https://imdb-clone-react-a1y5ftiwi-ritik-122.vercel.app/"              
             />
-          </Col> */}
+          </Col>
 
           
         </Row>
